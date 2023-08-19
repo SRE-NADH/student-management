@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student-management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Student Management CRUD</h1>
+    <form>
+      <div>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="email" placeholder="Email" required>
+        <input type="text" id="gpa" placeholder="GPA" required>
+      </div>
+      <div>
+        <input type="text" id="age" placeholder="Age" required>
+        <input type="text" id="degree" placeholder="Degree" required>
+      </div>
+        <button>Add Student</button>
+    </form>
+
+     <!-- Create an empty table with an ID for JavaScript to target -->
+     <!-- <table id="myTable">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>GPA</th>
+                <th>Age</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table> -->
+ 
+    <input type="search" placeholder="search by Name,Email or Degree" id="search">
+      
+    <div class="table">
+        <div id="1" class="head">id</div>
+        <div id="2" class="head">Student Name</div>
+        <div id="3" class="head">Email</div>
+        <div id="4" class="head">GPA</div>
+        <div id="5" class="head">Age</div>
+        <div id="6" class="head">Degree</div>
+        <div id="ID" class="body"></div>
+        <div id="NAME" class="body"></div>
+        <div id="EMAIL" class="body"></div>
+        <div id="GPA" class="body"></div>
+        <div id="AGE" class="body"></div>
+        <div id="DEGREE" class="body"></div>
+    
+    </div>
+
+    <script src="bookManagement.js"></script>
+</body>
+</html>
